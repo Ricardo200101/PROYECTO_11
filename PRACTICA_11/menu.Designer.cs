@@ -57,8 +57,8 @@ namespace PRACTICA_11
             // boockToolStripMenuItem
             // 
             this.boockToolStripMenuItem.Name = "boockToolStripMenuItem";
-            this.boockToolStripMenuItem.Size = new System.Drawing.Size(68, 24);
-            this.boockToolStripMenuItem.Text = "Boock ";
+            this.boockToolStripMenuItem.Size = new System.Drawing.Size(72, 24);
+            this.boockToolStripMenuItem.Text = "Escritor";
             this.boockToolStripMenuItem.Click += new System.EventHandler(this.boockToolStripMenuItem_Click);
             // 
             // menu

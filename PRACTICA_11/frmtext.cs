@@ -26,12 +26,12 @@ namespace PRACTICA_11
 
             try
             {
-                connectionString = @"Server=localhost;Database=codigodel;Uid=root;
+                connectionString = @"Server=localhost;Database=;Uid=root;
                                       Pwd=usbw;SSL Mode=None";
                 conn = new MySqlConnection(connectionString);
                 conn.Open();
                 MetroFramework.MetroMessageBox.Show(this, "se establecio conexion",
-                    "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Information); 
+                    "CONEXION EXISTOSA", MessageBoxButtons.OK, MessageBoxIcon.Information); 
 
             }
             catch(Exception ex)
