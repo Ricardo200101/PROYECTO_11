@@ -50,6 +50,7 @@ namespace PRACTICA_11
             this.Controls.Add(this.btntes);
             this.Name = "frmtext";
             this.Text = "frmtext";
+            this.Load += new System.EventHandler(this.frmtext_Load);
             this.ResumeLayout(false);
 
         }

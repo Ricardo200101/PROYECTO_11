@@ -29,10 +29,10 @@ namespace PRACTICA_11
 
         private void boockToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Form1 frm = new Form1();
+            frmEscrictor frm = new frmEscrictor();
             frm.MdiParent = this;
             frm.Show(); 
-            // 
+            
         }
     }
 }

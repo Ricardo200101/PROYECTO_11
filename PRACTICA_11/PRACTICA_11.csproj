@@ -98,11 +98,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion.cs" />
+    <Compile Include="Crud.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEscrictor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEscrictor.Designer.cs">
+      <DependentUpon>frmEscrictor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmtext.cs">
       <SubType>Form</SubType>
@@ -118,6 +126,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmEscrictor.resx">
+      <DependentUpon>frmEscrictor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmtext.resx">
       <DependentUpon>frmtext.cs</DependentUpon>
     </EmbeddedResource>

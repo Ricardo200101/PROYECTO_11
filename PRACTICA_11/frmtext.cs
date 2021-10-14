@@ -40,5 +40,10 @@ namespace PRACTICA_11
                     "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error); 
             }
         }
+
+        private void frmtext_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
