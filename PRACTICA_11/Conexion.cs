@@ -12,7 +12,7 @@ namespace PRACTICA_11
     {
         //propiedades
         private MySqlConnection conn =
-            new MySqlConnection("Server=localhost;Database=smis0000;Uid=root;" +
+            new MySqlConnection("Server=localhost;Database=smis937420;Uid=root;" +
                 "Pwd=usbw;SSL Mode=None");
         public MySqlCommand command;
 

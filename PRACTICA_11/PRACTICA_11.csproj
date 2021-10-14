@@ -100,6 +100,7 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="Crud.cs" />
+    <Compile Include="Escritor.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
